@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .yelw,
+        div {
+
+            width: auto;
+            padding: 20px;
+            background-color: magenta;
+            border-radius: 10px;
+            border-collapse: collapse;
+            text-align: center;
+            margin-top: 19px;
+            border-bottom: 12px;
+        }
+
+
+
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            width: 100%;
+            padding: 10px;
+    </style>
+    <script>
+
+        function add() {
+
+            num1 = parseFloat(document.getElementById("m1").value);
+            num2 = parseFloat(document.getElementById("m2").value);
+            num3 = parseFloat(document.getElementById("m3").value);
+            num4 = parseFloat(document.getElementById("m4").value);
+            num5 = parseFloat(document.getElementById("m5").value);
+            num6 = parseFloat(document.getElementById("m6").value);
+            num7 = parseFloat(document.getElementById("m7").value);
+            num8 = parseFloat(document.getElementById("m8").value);
+            num9 = parseFloat(document.getElementById("m9").value);
+            num10 = parseFloat(document.getElementById("m10").value);
+            num11 = parseFloat(document.getElementById("m11").value);
+            num12 = parseFloat(document.getElementById("m12").value);
+            num13 = parseFloat(document.getElementById("m13").value);
+            num14 = parseFloat(document.getElementById("m14").value);
+            numf1 = parseFloat(document.getElementById("f1").value);
+            numf2 = parseFloat(document.getElementById("f2").value);
+            numf3 = parseFloat(document.getElementById("f3").value);
+            numf4 = parseFloat(document.getElementById("f4").value);
+            numf5 = parseFloat(document.getElementById("f5").value);
+            numf6 = parseFloat(document.getElementById("f6").value);
+            numf7 = parseFloat(document.getElementById("f7").value);
+            numf8 = parseFloat(document.getElementById("f8").value);
+            numf9 = parseFloat(document.getElementById("f9").value);
+            numf10 = parseFloat(document.getElementById("f10").value);
+            numf11 = parseFloat(document.getElementById("f11").value);
+            numf12 = parseFloat(document.getElementById("f12").value);
+            numf13 = parseFloat(document.getElementById("f13").value);
+            numf14 = parseFloat(document.getElementById("f14").value);
+            mrps = parseFloat(document.getElementById("mrp").value);
+            sum = ((num1 * numf1) + (num2 * numf2) + (num3 * numf3) + (num4 * numf4) + (num5 * numf5) + (num6 * numf6) + (num7 * numf7) + (num8 * numf8) + (num9 * numf9) + (num10 * numf10) + (num11 * numf11) + (num12 * numf12) + (num13 * numf13) + (num14 * numf14)) * ((1 * mrps) / 44);
+            qut = (num1 + num2 + num3 + num4 + num5 + num6 + num7 + num7 + num8 + num9 + num10 + num11 + num12 + num13 + num14);
+            window.alert("final price is" + sum);
+
+            document.getElementById("answer").value = sum;
+            document.getElementById("Quntity").value = qut;
+
+        }
+    </script>
+
+
+</head>
+
+<body>
+
+    <header class="yelw">
+        <button type="button"><a href="index.html">Home</a></button>
+	<button type="button" ><a href="fat.html">Milk</a></button>
+     
+     <button type="button" ><a href="calc.html">Tally</a></button>
+     <button type="button" ><a href="data.html">Record</a></button>
+
+
+        <h1>TRU MILK </h1>
+        <h2> <label for="Name">Name</label>
+            <input type="text">
+        </h2>
+
+
+        <label for="datetime">From Date</label>
+        <input type="date">
+
+        <label for="datetime2">To Date</label>
+        <input type="date">
+    </header>
+    <div style="background-color: darkgray !important;">
+
+        <form action="">
+        <table>
+            <tr>
+                <th>
+                    <h1>Milk</h1>
+                </th>
+                <th>
+                    <h1>Fat
+                    </h1>
+                </th>
+
+            </tr>
+            <tr>
+                <td>
+                    DAY MILK <p><input id="m1" value="0"></p>
+
+                </td>
+                <td>
+                    DAY FAT <p><input id="f1" value="0"></p>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    EVENING MILK <p><input id="m2" value="0"></p>
+
+                </td>
+                <td>
+
+                    EVENING FAT<p> <input id="f2" value="0"></p>
+
+                </td>
+            <tr>
+                <td>
+                    DAY MILK <p><input id="m3" value="0"></p>
+
+                </td>
+                <td>
+                    DAY FAT <p><input id="f3" value="0"></p>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    EVENING MILK <p><input id="m4" value="0"></p>
+
+                </td>
+                <td>
+
+                    EVENING FAT<p> <input id="f4" value="0"></p>
+
+                </td>
+            <tr>
+                <td>
+                    DAY MILK <p><input id="m5" value="0"></p>
+
+                </td>
+                <td>
+                    DAY FAT <p><input id="f5" value="0"></p>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    EVENING MILK <p><input id="m6" value="0"></p>
+
+                </td>
+                <td>
+
+                    EVENING FAT<p> <input id="f6" value="0"></p>
+
+                </td>
+            <tr>
+                <td>
+                    DAY MILK <p><input id="m7" value="0"></p>
+
+                </td>
+                <td>
+                    DAY FAT <p><input id="f7" value="0"></p>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    EVENING MILK <p><input id="m8" value="0"></p>
+
+                </td>
+                <td>
+
+                    EVENING FAT<p> <input id="f8" value="0"></p>
+
+                </td>
+            <tr>
+                <td>
+                    DAY MILK <p><input id="m9" value="0"></p>
+
+                </td>
+                <td>
+                    DAY FAT <p><input id="f9" value="0"></p>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    EVENING MILK <p><input id="m10" value="0"></p>
+
+                </td>
+                <td>
+
+                    EVENING FAT<p> <input id="f10" value="0"></p>
+
+                </td>
+            <tr>
+                <td>
+                    DAY MILK <p><input id="m11" value="0"></p>
+
+                </td>
+                <td>
+                    DAY FAT <p><input id="f11" value="0"></p>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    EVENING MILK <p><input id="m12" value="0"></p>
+
+                </td>
+                <td>
+
+                    EVENING FAT<p> <input id="f12" value="0"></p>
+
+                </td>
+            <tr>
+                <td>
+                    DAY MILK <p><input id="m13" value="0"></p>
+
+                <td>
+                    DAY FAT <p><input id="f13" value="0"></p>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    EVENING MILK <p><input id="m14" value="0"></p>
+
+                </td>
+                <td>
+
+                    EVENING FAT<p> <input id="f14" value="0"></p>
+
+                </td>
+
+            <tr>
+                <td>
+                    RATE <p><input id="mrp"></p>
+                </td>
+                <td>
+                    Total Milk Quntity <p><input id="Quntity"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Total Price = <input id="answer"></td>
+                <td>
+                    <button type="button" style="color: green;" onclick="add()">CALCULATE</button>
+
+                    <button type="reset" style="color: Red;" value="Reset">RESET</button>
+
+                    <button type="button" style="color: blue; " onclick="window.print()">SAVE PDF</button>
+
+
+                </td>
+            </tr>
+
+
+        </table>
+    </form>
+    </div>
+    
+    </body>
+
+</html>
